@@ -105,7 +105,7 @@ function getPokemonData(id) {
 }
 
 // -------------------------------------------------------------
-//  [getPokemonData]
+//  [makeSheet]
 //    in  @ id : Array[ id:Number, name,String, flavorText:String, imageURL: String ]
 //    out @ Promise( resolve: undefined, reject: Error )
 function makeSheet(arrayPokemon){
