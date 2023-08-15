@@ -1,0 +1,19 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Sheets",
+        "version": "v4",
+        "serviceId": "sheets"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "executionApi": {
+    "access": "MYSELF"
+  },
+  "urlFetchWhitelist":["https://pokeapi.co/api/v2/","https://raw.githubusercontent.com/PokeAPI/"],
+  "oauthScopes":["https://www.googleapis.com/auth/script.external_request","https://www.googleapis.com/auth/drive"]
+}
